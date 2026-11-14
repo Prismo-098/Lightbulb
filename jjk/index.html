@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jjk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gojo">
+
+    <div class="bg-video active" id="gojo">
+        <img class="off_pic" src="src/gojo_off.jpg" alt="">
+        <img class="on_pic" src="src/gojo_on.jpg" alt="">
+        <video src="src/gojo.mp4" loop muted playsinline></video>
+    </div>
+
+    <div class="bg-video" id="sukuna">
+        <img class="off_pic" src="src/sukuna_off.jpg" alt="">
+        <img class="on_pic" src="src/sukuna_on.jpg" alt="">
+        <video src="src/sukuna.mp4" loop muted playsinline></video>
+    </div>
+
+    <div class="bg-video" id="domain">
+        <img class="off_pic" src="src/domain_off.jpg" alt="">
+        <img class="on_pic" src="src/domain_on.jpg" alt="">
+        <video src="src/domain.mp4" loop muted playsinline></video>
+    </div>
+
+    <div class="top">
+        <div class="label">Gojo</div>
+        <div class="steps">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="switch">
+            <div class="btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2.5v9"/>
+                    <path d="M6.3 6.3a8.5 8.5 0 1 0 11.4 0"/>
+                </svg>
+            </div>
+        </div>
+        <p class="hint">Next: Sukuna</p>
+    </div>
+
+    <audio src="src/button.wav" id="audio"></audio>
+    <audio src="src/song.m4a" id="song" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
